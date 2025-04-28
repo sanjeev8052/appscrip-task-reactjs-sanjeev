@@ -39,3 +39,17 @@
   cursor: pointer;
 }
 
+.card-container{
+        padding: 40px;
+         display: flex;
+          flex-direction: row;
+          gap: 20px;
+          flex-wrap: wrap;
+          justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .card-container{
+    padding: 10px;
+  }
+}

@@ -21,13 +21,7 @@ const Product = () => {
     <>
       <Filter setSelectedCategory={setSelectedCategory} />
       <div
-        style={{
-          padding: "40px",
-          display: "flex",
-          gap: "20px",
-          flexWrap: "wrap",
-          justifyContent: "center",
-        }}
+       className="card-container"
       >
         {products &&
           products.map((item) => {
