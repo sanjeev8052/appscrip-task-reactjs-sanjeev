@@ -19,10 +19,9 @@ const Product = () => {
   }
   return (
     <>
+      <h6 className="home-heading">Discover our product</h6>
       <Filter setSelectedCategory={setSelectedCategory} />
-      <div
-       className="card-container"
-      >
+      <div className="card-container">
         {products &&
           products.map((item) => {
             if (item.category == selectedCategory || selectedCategory == "All")

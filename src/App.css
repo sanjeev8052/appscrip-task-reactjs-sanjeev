@@ -38,10 +38,18 @@
   outline: none;
   cursor: pointer;
 }
+.home-heading{
+  text-align: center;
+  color: #405f7d ;
+  font-size: 40px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin: 1rem 0;
+}
 
 .card-container{
-        padding: 40px;
-         display: flex;
+          padding: 40px;
+          display: flex;
           flex-direction: row;
           gap: 20px;
           flex-wrap: wrap;
@@ -51,5 +59,17 @@
 @media (max-width: 768px) {
   .card-container{
     padding: 10px;
+  }
+
+  .home-heading{
+    font-size: 20px;
+  }
+  .category-option select{
+padding: 5px;
+
+  }
+  .category-option{
+    margin: -4px auto;
+    width: 100%;
   }
 }
